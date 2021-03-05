@@ -1,625 +1,693 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="박현우의 포트폴리오" />
-    <meta name="keywords" content="template, theme, portfolio, developer" />
-    <meta name="description" content="One Page Template for Developer Portfolio" />
-    <title>Hyunwoo's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/theme.css" />
-    <link rel="stylesheet" href="./css/theme-dark.css" media="(prefers-color-scheme: dark)">
-  </head>
-  <body>
-    <!-- Header 시작 -->
-    <header>
-      <div class="container">
-        <h1>개발자 <strong>박현우</strong>의 <strong>포트폴리오</strong> 입니다</h1>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="박현우의 포트폴리오" />
+  <meta name="keywords" content="template, theme, portfolio, developer" />
+  <meta name="description" content="One Page Template for Developer Portfolio" />
+  <title>Hyunwoo's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/theme.css" />
+  <link rel="stylesheet" href="./css/theme-dark.css" media="(prefers-color-scheme: dark)">
+</head>
+
+<body>
+  <!-- Header 시작 -->
+  <header>
+    <div class="container">
+      <h1>개발자 <strong>박현우</strong>의 <strong>포트폴리오</strong> 입니다</h1>
+    </div>
+  </header>
+  <!-- Header 끝 -->
+  <!-- Navbar 시작 -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid text-uppercase">
+      <a class="navbar-brand" href="#">Park Hyun Woo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse sticky-fixed" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#summary">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#awards">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stacks">Stacks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#qualification">Qualification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </header>
-    <!-- Header 끝 -->
-    <!-- Navbar 시작 -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid text-uppercase">
-        <a class="navbar-brand" href="#">Park Hyun Woo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse sticky-fixed" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#summary">Summary</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#awards">Awards</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#stacks">Stacks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#qualification">Qualification</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+    </div>
+  </nav>
+  <!-- Navbar 끝 -->
+  <!-- Main 시작 -->
+  <main>
+    <!-- Summary 시작 -->
+    <section class="container pt mt" id="summary">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Summary</h2>
+          <p class="color-basic fonsiz-xl fonwei-kr-xs letsp-xs ws-sm mt-4">
+
+            - 1995년 3월 6일 부산에서 태어남<br />
+            - 2015년 3월 세종대학교 입학(전자정보통신공학과)<br />
+            - 2016년 3월 3일 ~ 2017년 12월 2일 군 복무(의무경찰)<br />
+            - 2019년 컴퓨터공학과 복수전공 시작<br />
+            - 2021년 2월 21일 기준, 4학년 1학기 수료 후 휴학 (남은 학점 : 9학점)<br />
+          </p>
         </div>
       </div>
-    </nav>
-    <!-- Navbar 끝 -->
-    <!-- Main 시작 -->
-    <main>
-      <!-- Summary 시작 -->
-      <section class="container pt mt" id="summary">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Summary</h2>
-            <p class="color-basic fonsiz-xl fonwei-kr-xs letsp-xs ws-sm mt-4">
-              안녕하세요. <span class="fonwei-en-xl letsp-md"> 개발자 박현우입니다.</span>
-              저는 올해 27살이며, 현재 세종대학교 4학년 1학기를 마치고 휴학중인 상태입니다.<br/>
-              <span class="fonwei-kr-md"> 호기심이 많고 배우는 것을 좋아하며, 다른 사람들과 소통하는 것을 즐깁니다.</span>
-              대학교 3학년, 나이로 치면 25살이라는 다소 늦을 수 있는 나이에 컴퓨터공학과를 복수전공하게 되었습니다.
-              좋은 것을 주고 받으며 서로를 업그레이드 할 수 있는 사람이 되고 싶습니다.<br/><br/>
-              
-              - 1995년 3월 6일 부산에서 태어남<br/>
-              - 2015년 3월 세종대학교 입학(전자정보통신공학과)<br/>
-              - 2016년 3월 3일 ~ 2017년 12월 2일 군 복무(의무경찰)<br/>
-              - 2019년 컴퓨터공학과 복수전공 시작<br/>
-              - 2021년 2월 21일 기준, 4학년 1학기 수료 후 휴학 (남은 학점 : 9학점)<br/>
-              - 2021년 2월 12일 기준 백준 solved.ac 골드 3<br/><br/>
+    </section>
 
-              <img src='assets/img/solvedac.JPG' width="500px" height="300px">
-            </p>
+    <!-- Summary 끝 -->
+    <!-- Project 시작 -->
+    <section class="container pt mt" id="project">
+      <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Project</h2>
+      <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+      </div>
+      <div class="card shadow">
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table borderless table-hover align-middle">
+              <thead class="border-0 borderless" border="0">
+                <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                  <th>프로젝트</th>
+                  <th>소개</th>
+                  <th>개발 참여도</th>
+                  <th>추가 정보</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="table-title" scope="col">오픈소스 - MineSweeper</th>
+                  <td>
+                    <div>[OSS-MineSweeper]</div>
+                    <div>
+                      github에서 MineSweeper 코드를 찾은 뒤, 그것들을 bugfix, cleancode, revolution이라는
+                      branch로 관리하여 새로운 프로젝트를 만들었습니다.<br />
+                      팀장의 repository에서 각 팀원이 fork를 하였습니다. git bash를 통하여 git 작업을 하였고 그것을 본인의 repository에 push하는 작업을 통하여
+                      git과 github의 원리와 여러 사용법을 익히게 되었습니다.<br />
+                      각자의 팀원의 각자의 repository로 fork후 pull request를 통하여 main branch에 merge하는 과정을 거쳤고 이 과정에서 본인을 제외한 나머지
+                      팀원(3명)이 모두 approve를 해야 merge되는 기능 등도 이용해 보았습니다.<br />
+
+                    </div>
+                    <div>
+                      <span class="badge bg-info">C</span>
+                      <span class="badge bg-success">Git</span>
+                      <span class="badge bg-primary">Github</span>
+                      <span class="badge bg-secondary">Open Source Software</span>
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">
+                        <span class="progress-desc">개발 참여</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <button type="button" class="btn btn-link"
+                      onClick="window.open('https://github.com/HyperTech99/OSS-MineSweeper')">Link</button>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="table-title" scope="col">우리의 서울</th>
+                  <td>
+                    <div>[우리의 서울]</div>
+                    <div>
+                      코딩온의 'Python 프레임워크를 활용한 웹 개발' 이라는 수업에서 진행한 프로젝트입니다. <br />
+                      파이썬 프레임워크인 Django를 통하여 제작하였고, 네이버 클라우드 플랫폼을 통해 배포하였습니다. <br />
+                      서울에 대한 전반적인 소개, 홍보 영상 등을 넣었고 6개의 명소를 선정하여 세부적인 소개를 하는 간단한 웹 사이트입니다.<br />
+                    </div>
+                    <div>
+                      <span class="badge bg-primary">HTML5</span>
+                      <span class="badge bg-secondary">CSS3</span>
+                      <span class="badge bg-success">JavaScript</span>
+                      <span class="badge bg-info">Bootstrap 4</span>
+                      <span class="badge bg-primary">KAKAO MAP API</span>
+                      <span class="badge bg-dark">Django</span>
+                      <span class="badge bg-grey">Naver Cloud Platform</span>
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                        <span class="progress-desc">프론트+백엔드</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <button type="button" class="btn btn-link"
+                      onClick="window.open('http://49.50.175.8:8000/')">Link</button>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="table-title" scope="col">2020 데이터 청년 캠퍼스</th>
+                  <td>
+                    <div>[2조 - PinEat]</div>
+                    <div>
+                      '서울특별시 공공자전거 이용현황'이라는 공공데이터에서 약 20만개의 출발지, 반납지의 정보 가공하여 얻어낸 뒤, 그 정보를 카카오 맵 API를 통하여 위도와 경도로
+                      변환하였습니다. <br />
+                      그리고 osmnx라는 외부 라이브러리를 이용하여, 저희가 임의로 만든 '최소 에너지 소비 공식' 을 적용시켜 예측 경로를 만들었습니다.<br />
+
+                      많이 지나가는 지점을 순위를 매긴 뒤, 그 지점들에 딥러닝을 통하여 예측 매출 등급을 조사하였고 실제 매출액과 조사하여 유의미한 결과를 거두었습니다.<br />
+                    </div>
+                    <div>
+                      <span class="badge bg-primary">Python</span>
+                      <span class="badge bg-secondary">Pandas</span>
+                      <span class="badge bg-success">Numpy</span>
+                      <span class="badge bg-info">OSMNX</span>
+                      <span class="badge bg-grey">KAKAO MAP API</span>
+
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">
+                        <span class="progress-desc">개발 참여</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <button type="button" class="btn btn-link" onClick="window.open('./pdf_project.html')">Link</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-      </section>
-
-      
-      <!-- Summary 끝 -->
-      <!-- Project 시작 -->
-      <section class="container pt mt" id="project">
-        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Project</h2>
-        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+      </div>
+    </section>
+    <!-- Project 끝 -->
+    <!-- Awards 시작 -->
+    <section class="container pt mt" id="awards">
+      <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Awards</h2>
+      <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+        수상 내역의 증빙 자료는 민감사항이므로, 개인적으로 연락을 주시는 경우에 제출하겠습니다.<br />
+      </div>
+      <div class="card shadow">
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                  <th>대회명</th>
+                  <th>세부 사항 </th>
+                  <th>수상</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="table-title" scope="col">제 6회 세종SW코딩경시대회</th>
+                  <td>
+                    <div>세종대학교 소프트웨어융합대학</div>
+                    <div>
+                      2019년 세종대학교 소프트웨어융합대학에서 개최된 제 6회 세종SW코딩경시대회에 유사전공 자격으로 참가하여 4등상을 받았습니다. <br />
+                      세종SW코딩경시대회란, C언어로 참가하여 알고리즘 문제를 해결하는 대회입니다.
+                      유사전공이란, 주 전공의 소속이 '소프트웨어대학'이 아니라, '전자정보대학'으로 이루어진 그룹입니다. <br />
+                      (저는 주 전공이 전자정보대학에 소속된 전자정보통신공학과 입니다.)
+                    </div>
+                  </td>
+                  <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">4등</td>
+                </tr>
+                <tr>
+                  <th class="table-title" scope="col">제4회 TED 스피치 경연대회</th>
+                  <td>
+                    <div>세종대학교 사회과학대학 </div>
+                    <div>
+                      2019년 세종대학교 사회과학대학에서 주최한 제4회 TED 스피치 경연대회에 참가하여 장려상을 수상하였습니다. <br />
+                      TED 스피치 경연대회란 자유로운 형식 및 주제의 발표물을 자신만의 개성으로 5분의 시간 내에 청중들에게 스피치하는 프로그램입니다.<br />
+                    </div>
+                  <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">장려상</td>
+                </tr>
+                <tr>
+                  <th class="table-title" scope="col">코딩온</th>
+                  <td>
+                    <div>코딩온</div>
+                    <div>
+                      추가예정
+                    </div>
+                  <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">우수상</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div class="card shadow">
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table borderless table-hover align-middle">
-                <thead class="border-0 borderless" border="0">
-                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
-                    <th>프로젝트</th>
-                    <th>소개</th>
-                    <th>개발 참여도</th>
-                    <th>추가 정보</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th class="table-title" scope="col">오픈소스 - MineSweeper</th>
-                    <td>
-                      <div>[OSS-MineSweeper]</div>
-                      <div>
-                        github에서 MineSweeper 코드를 찾은 뒤, 그것들을 bugfix, cleancode, revolution이라는
-                        branch로 관리하여 새로운 프로젝트를 만들었습니다. 4명이서 한 팀을 이루었습니다, <br/>
-                        팀장의 repository에서 각 팀원이 fork를 하였습니다. git bash를 통하여 git 작업을 하였고 그것을 본인의 repository에 push하는 작업을 통하여 git과 github의 원리와 여러 사용법을 익히게 되었습니다.<br/>
-                        각자의 팀원의 각자의 repository로 fork후 pull request를 통하여 main branch에 merge하는 과정을 거쳤고 이 과정에서 본인을 제외한 나머지 팀원(3명)이 모두 approve를 해야 merge되는 기능 등도 이용해 보았습니다.<br/>
-                        
-                        # 팀원 : 윤성민, 박제성, 최지웅, 박현우
-                      </div>
-                      <div>
-                        <span class="badge bg-info">C</span>
-                        <span class="badge bg-success">Git</span>
-                        <span class="badge bg-primary">Github</span>
-                        <span class="badge bg-secondary">Open Source Software</span>
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">
-                          <span class="progress-desc">개발 참여</span>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <button type="button" class="btn btn-link" onClick="window.open('https://github.com/HyperTech99/OSS-MineSweeper')">Link</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th class="table-title" scope="col">우리의 서울</th>
-                    <td>
-                      <div>[우리의 서울]</div>
-                      <div>
-                        코딩온의 'Python 프레임워크를 활용한 웹 개발' 이라는 수업에서 진행한 프로젝트입니다. <br/>
-                        파이썬 프레임워크인 Django를 통하여 제작하였고, 네이버 클라우드 플랫폼을 통해 배포하였습니다. <br/>
-                        서울에 대한 전반적인 소개, 홍보 영상 등을 넣었고 6개의 명소를 선정하여 세부적인 소개를 하는 간단한 웹 사이트입니다.<br/>
-                        # 팀원 : 박현우, 이성민, 이유영
-                        
-                      </div>
-                      <div>
-                        <span class="badge bg-primary">HTML5</span>
-                        <span class="badge bg-secondary">CSS3</span>
-                        <span class="badge bg-success">JavaScript</span>
-                        <span class="badge bg-info">Bootstrap 4</span>
-                        <span class="badge bg-primary">KAKAO MAP API</span>
-                        <span class="badge bg-dark">Django</span>
-                        <span class="badge bg-grey">Naver Cloud Platform</span>
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
-                          <span class="progress-desc">프론트+백엔드</span>
-                        </div>
-                      </div>
-                    </td><td class="text-center">
-                      <button type="button" class="btn btn-link" onClick="window.open('http://49.50.175.8:8000/')">Link</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th class="table-title" scope="col">2020 데이터 청년 캠퍼스</th>
-                    <td>
-                      <div>[2조 - PinEat]</div>
-                      <div>
-                        '서울특별시 공공자전거 이용현황'이라는 공공데이터에서 약 20만개의 출발지, 반납지의 정보 가공하여 얻어낸 뒤, 그 정보를 카카오 맵 API를 통하여 위도와 경도로 변환하였습니다. <br/>
-                        그리고 osmnx라는 외부 라이브러리를 이용하여, 저희가 임의로 만든 '최소 에너지 소비 공식' 을 적용시켜 예측 경로를 만들었습니다.<br/>
+      </div>
+    </section>
+    <section class="container pt mt mb-5" id="stacks">
+      <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Stacks</h2>
+      <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+        제가 사용할 수 있는 언어 및 프레임워크 입니다.
+      </div>
+      <div class="card shadow">
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                Frontend
+                <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                  <th width="150px">기술 구분</th>
+                  <th width="150px">로고</th>
+                  <th>활용 수준</th>
+                </tr>
+              </thead>
+              <tbody>
+                <br>
+                <tr>
+                  <th scope="col" class="table-title letsp-md" width="10px">HTML5</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/svg/html5.svg" style="width:100px" alt="HTML5" />
+                    </div>
+                  </td>
+                  <td>
+                    추가 예정
+                  </td>
+                </tr>
 
-                        많이 지나가는 지점을 순위를 매긴 뒤, 그 지점들에 딥러닝을 통하여 예측 매출 등급을 조사하였고 실제 매출액과 조사하여 유의미한 결과를 거두었습니다.<br/>
-                        # 팀원 : 곽석우, 박민준, 박상현, 박현우
-                      </div>
-                      <div>
-                        <span class="badge bg-primary">Python</span>
-                        <span class="badge bg-secondary">Pandas</span>
-                        <span class="badge bg-success">Numpy</span>
-                        <span class="badge bg-info">OSMNX</span>
-                        <span class="badge bg-grey">KAKAO MAP API</span>
-                        
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">
-                          <span class="progress-desc">개발 참여</span>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <button type="button" class="btn btn-link" onClick="window.open('./pdf_project.html')">Link</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                <tr>
+                  <th scope="col" class="table-title letsp-md">CSS3</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/css3.png" style="width:75px" alt="CSS3" />
+                    </div>
+                  </td>
+                  <td>
+                    추가 예정
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="col" class="table-title letsp-md">JavaScript</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/javascript.png" style="width:110px" alt="JavaScript" />
+                    </div>
+                  </td>
+                  <td>
+                    추가 예정
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="card shadow">
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                Backend
+                <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                  <th width="150px">기술 구분</th>
+                  <th width="150px">로고</th>
+                  <th>활용 수준</th>
+                </tr>
+              </thead>
+              <tbody>
+                <br>
+                <tr>
+                  <th scope="col" class="table-title letsp-md">Django</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/django.jpeg" style="width:100px" alt="Django" />
+                    </div>
+                  </td>
+                  <td>
+                    추가 예정
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="col" class="table-title letsp-md">Node js</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/svg/nodejs.svg" style="width:100px" alt="Node js" />
+                    </div>
+                  </td>
+                  <td>
+                    추가 예정
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="card shadow">
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle">
+              <thead>
+                General
+                <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                  <th width="150px">기술 구분</th>
+                  <th width="150px">로고</th>
+                  <th>활용 수준</th>
+                </tr>
+              </thead>
+              <tbody>
+                <br>
+                <tr>
+                  <th scope="col" class="table-title letsp-md">Amazone Web Service</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/aws.png" style="width:100px" alt="AWS" />
+                    </div>
+                  </td>
+                  <td>
+                    EC2 서버를 사용하여 여러 포트 등을 이용하여 apache2, django 등을 운영하고 있습니다.
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="col" class="table-title letsp-md">Naver Cloud Platform</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/NCP.png" style="width:100px" alt="NCP" />
+                    </div>
+                  </td>
+                  <td>
+                    수정 예정
+                  </td>
+                </tr>
+
+
+                <tr>
+                  <th scope="col" class="table-title letsp-md">Git</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/git.png" style="width:80px" alt="Git" />
+                    </div>
+                  </td>
+                  <td>
+                    수정 예정
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="col" class="table-title letsp-md">Github</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/github.png" style="width:100px" alt="Github" />
+                    </div>
+                  </td>
+                  <td>
+                    수정 예정
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="col" class="table-title letsp-md">Linux Ubuntu</th>
+                  <td>
+                    <div style="text-align:center">
+                      <img src="./assets/img/ubuntu.png" style="width:100px" alt="AWS" />
+                    </div>
+                  </td>
+                  <td>
+                    수정 예정
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <br>
+
+    </section>
+
+    <!-- 교육 수료에 관한 부분-->
+
+    <section class="container pt mt" id="education">
+      <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Education</h2>
+      <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+        지금까지 정규 학기 이외의 수업 수료 혹은 진행중인 과정입니다.
+      </div>
+      <div class="card shadow">
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table borderless table-hover align-middle">
+              <thead class="border-0 borderless" border="0">
+                <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                  <th>교육명</th>
+                  <th>소개</th>
+                  <th>일정</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="table-title" scope="col">2020 데이터 청년 캠퍼스</th>
+                  <td>
+                    <div>[한국데이터산업진흥원]파이썬 기반의 데이터분석 및 딥러닝</div>
+                    <div>
+                      파이썬, 케라스, 텐서플로우 등의 분석도구 사용 · 통계학 기반의 데이터 처리 프로세스 학습 · 딥러닝 기법을 이용한 데이터 분석 실무 교육 · 딥러닝 기반 자연어처리 교육
+                      데이터분석 개요, 파이썬, 통계기반 데이터 분석, 컴퓨터비전과 딥러닝을 학습하였고, 프로젝트를 제출하였습니다.
+                      6월 말에 시작하여 9월 초까지 진행되었습니다.
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div class="">2020.06 ~ 2020.09</div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="table-title" scope="col">Python 프레임워크를 활용한 웹 개발</th>
+                  <td>
+                    <div>[코딩온]</div>
+                    <div>
+                      2021년 1월 5일부터 2021년 1월 29일까지 총 80시간동안 웹 개발 과정을 수강하였습니다. 네이버 클라우드 플랫폼에서 2개의 리눅스 서버를 빌려, 리눅스 환영에서
+                      수업을 진행하였습니다.<br />
+                      리눅스 환경에서 HTML, CSS, JavaScript와 Bootstrap등을 학습하였으며, SSH Key를 이용하여 Visual Studio Code에서 원격 서버를 연동하는
+                      법을 배웠습니다.<br />
+                      Apache와 Django 등을 학습하였으며, Django를 이용하여 `우리의 서울` 이라는 서울을 소개해주는 간단한 웹 프로젝트를 완성하였으며, 네이버 클라우드 플랫폼으로
+                      배포하였습니다.
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div class="">2021.01.05~2021.01.28</div>
+                  </td>
+                <tr>
+                  <th class="table-title" scope="col">All-In-One 알고리즘 2020 하반기</th>
+                  <td>
+                    <div>[세종대학교]</div>
+                    <div>
+                      C++ 기초 문법, 자료구조와 STL등을 학습하였고 그것을 바탕으로 재귀함수, 탐색, 분할과 정복, 동적 계획법,
+                      그래프 알고리즘, 알고리즘 성능향상 기법 등을 학습하였습니다.
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div class="">2020.09~2020.11</div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th class="table-title" scope="col">웹 기반 AI 융합 개발자 양성 과정</th>
+                  <td>
+                    <div>[SSAC] (Seoul Software Academy Cluster)]</div>
+                    <div>
+                      웹 기분 AI 융합 개발자 양성 프로그램에 중간에 참여할 기회를 얻어 참여를 준비중이며, 현재 node js를 학습하였고, 간단한 채팅 프로그램 등을 구현할 수 있는
+                      수준입니다.
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div class="">2021.02.15 ~</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pt mt" id="qualification">
+      <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Qualification</h2>
+      <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+        자격 증명 또한 민감정보이므로, 제출을 원하시면 개인적으로 제출하겠습니다.<br />
+        국가 공인 자격증이 아닌 경우 제외하였습니다.
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <div class="card mb-3">
+            <div class="card-body p-4">
+              <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">정보처리기사</h5>
+              <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                발급기관 : 한국산업인력공단<br /> 취득일 : 2020.11
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Project 끝 -->
-      <!-- Awards 시작 -->
-      <section class="container pt mt" id="awards">
-        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Awards</h2>
-        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
-          수상 내역의 증빙 자료는 민감사항이므로, 개인적으로 연락을 주시는 경우에 제출하겠습니다.<br/>
-        </div>
-        <div class="card shadow">
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table table-hover align-middle">
-                <thead>
-                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
-                    <th>대회명</th>
-                    <th>세부 사항 </th>
-                    <th>수상</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th class="table-title" scope="col">제 6회 세종SW코딩경시대회</th>
-                    <td>
-                      <div>세종대학교 소프트웨어융합대학</div>
-                      <div>
-                        2019년 세종대학교 소프트웨어융합대학에서 개최된 제 6회 세종SW코딩경시대회에 유사전공 자격으로 참가하여 4등상을 받았습니다. <br/>
-                        세종SW코딩경시대회란, C언어로 참가하여 알고리즘 문제를 해결하는 대회입니다.
-                        유사전공이란, 주 전공의 소속이 '소프트웨어대학'이 아니라, '전자정보대학'으로 이루어진 그룹입니다. <br/>
-                        (저는 주 전공이 전자정보대학에 소속된 전자정보통신공학과 입니다.)
-                      </div>
-                    </td>
-                    <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">4등</td>
-                  </tr>
-                  <tr>
-                    <th class="table-title" scope="col">제4회 TED 스피치 경연대회</th>
-                    <td>
-                      <div>세종대학교 사회과학대학 </div>
-                      <div>
-                        2019년 세종대학교 사회과학대학에서 주최한 제4회 TED 스피치 경연대회에 참가하여 장려상을 수상하였습니다. <br/>
-                        TED 스피치 경연대회란 자유로운 형식 및 주제의 발표물을 자신만의 개성으로 5분의 시간 내에 청중들에게 스피치하는 프로그램입니다.<br/>
-                      </div>
-                    <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">장려상</td>
-                  </tr>
-                </tbody>
-              </table>
+        <div class="col-sm-12 col-lg-4">
+          <div class="card mb-3">
+            <div class="card-body p-4">
+              <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">한국사능력검정시험 2급</h5>
+              <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                발급기관 : 국사편찬위원회<br /> 취득일 : 2017.01
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <section class="container pt mt mb-5" id="stacks">
-        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Stacks</h2>
-        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
-          제가 사용할 수 있는 언어 및 프레임워크 입니다.
-        </div>
-        <div class="card shadow">
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table table-hover align-middle">
-                <thead>
-                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
-                    <th>기술 구분</th>
-                    <th>로고</th>
-                    <th>활용 수준</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">C</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/svg/C.svg" style="width:70px" alt="C Logo"/>
-                      </div>
-                    </td>
-                    <td>
-                      <span class="ls-0">C언어로 포인터, 구조체, 동적 할당 등의 개념 등을 설명할 수 있으며, 큐, 스택, 연결리스트, 트리와 같은 자료구조 등을 직접 구현할 수 있습니다. 
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">C++</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/svg/C++.svg" style="width:70px" alt="C++ Logo" />
-                      </div>
-                    </td>
-                    <td>
-                      클래스를 활용할 수 있으며, 여러 STL을 사용하여 알고리즘 문제 풀이 등에 적용할 수 있습니다.
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">Java</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/java.png" style="width:100px" alt="Java Logo" />
-                      </div>
-                    </td>
-                    <td>
-                      계산기 등과 같은 간단한 GUI를 구현해 보았고, JDBC를 통한 mysql과의 연동으로 간단한 insert, delete, update 기능이 가능한 gui 프로젝트를 한 경험이 있습니다.
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">Python</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/python.png" style="width:100px" alt="Python Logo" />
-                      </div>
-                    </td>
-                    <td>
-                      numpy, pandas와 같은 데이터 분석, folium과 같은 시각화 등의 툴도 이용할 수 있으며 여러 내장 함수를 포함한 함수를 자신있게 사용할 수 있습니다.<br/>
-                      또한 url에 requests하여 json/xml 형식 등의 데이터를 파싱할 수 있습니다. 코딩테스트를 준비하며 가장 자신 있는 언어입니다.
-                    </td>
-                  </tr>
-                  
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">JavaScript</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/javascript.png" style="width:80px" alt="JavaScript Logo" />
-                      </div>
-                    </td>
-                    <td>
-                      JavaScript 문법과 내장 함수들을 사용할 수 있습니다. jquery 라이브러리를 이용하여 기능을 이용할 수 있고 bootstrap를 이용하여 프론트엔드 부분을 가시성 좋게 꾸밀 수 있습니다.
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">Django</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/django.jpeg" style="width:100px" alt="Django Logo" />
-                      </div>
-                    </td>
-                    <td>
-                      Django를 이용하여 MTV패턴을 활용하여 웹 어플리케이션 서버를 구동시킬 수 있으며, CRUD 기능을 통하여 내장 데이터베이스인 sqlite를 이용하여 회원가입, 로그인, 글쓰기 기능 등과 같은 CRUD 기능을 구현할 수 있습니다.
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">Mysql</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/mysql.png" style="width:100px" alt="Mysql Logo" />
-                      </div>
-                    </td>
-                    <td>
-                      데이터베이스 테이블을 설계할 수 있으며, CRUD 기능을 자유자재로 사용할 수 있습니다. 
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">Node js</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/#" style="width:100px" alt="Node js Logo" />
-                      </div>
-                    </td>
-                    <td>
-                      express와 socket.io를 통하여 실시간 채팅과 같은 비동기 프로젝트를 구현해 보았습니다.
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">Node js</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/#" style="width:100px" alt="Naver Cloud Platform" />
-                      </div>
-                    </td>
-                    <td>
-                      네이버 클라우드 플랫폼을 통하여 리눅스 서버를 원격으로 구현해 보았습니다.
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <th scope="col" class="table-title letsp-md">AWS</th>
-                    <td>
-                      <div style="text-align:center">
-                        <img src="./assets/img/#" style="width:100px" alt="AWS" />
-                      </div>
-                    </td>
-                    <td>
-                      EC2 서버를 사용하여 여러 포트 등을 이용하여 apache2, django 등을 운영하고 있습니다.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+        <div class="col-sm-12 col-lg-4">
+          <div class="card mb-3">
+            <div class="card-body p-4">
+              <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">워드프로세서 1급</h5>
+              <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                발급기관 : 대한상공회의소<br /> 취득일 : 2006.03
+              </p>
             </div>
-            <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">객관화하기 어려운 관계로, 제가 이해하고 구현할 수 있는 수준을 작성했습니다.</div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- 교육 수료에 관한 부분-->
-
-      <section class="container pt mt" id="education">
-        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Education</h2>
-        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
-          지금까지 정규 학기 이외의 수업 수료 혹은 진행중인 과정입니다.
+    <!-- contact 시작  -->
+    <section class="container pt mt" id="contact">
+      <div class="row">
+        <div class="col-lg-7 mx-auto text-center mb-5">
+          <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">
+            Contact
+          </h2>
+          <p class=" fonsiz-sm color-basic fonsiz-xl fonwei-kr-xs lh-md letsp-xs ws-sm my-4">
+            제 소개는 여기까지입니다. 읽어주셔서 감사합니다. <br />
+          </p>
         </div>
-        <div class="card shadow">
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table borderless table-hover align-middle">
-                <thead class="border-0 borderless" border="0">
-                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
-                    <th>교육명</th>
-                    <th>소개</th>
-                    <th>일정</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th class="table-title" scope="col">2020 데이터 청년 캠퍼스</th>
-                    <td>
-                      <div>[한국데이터산업진흥원]파이썬 기반의 데이터분석 및 딥러닝</div>
-                      <div>
-                        파이썬, 케라스, 텐서플로우 등의 분석도구 사용 · 통계학 기반의 데이터 처리 프로세스 학습 · 딥러닝 기법을 이용한 데이터 분석 실무 교육 · 딥러닝 기반 자연어처리 교육
-                        데이터분석 개요, 파이썬, 통계기반 데이터 분석, 컴퓨터비전과 딥러닝을 학습하였고, 프로젝트를 제출하였습니다.
-                        6월 말에 시작하여 9월 초까지 진행되었습니다.
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="">2020.06 ~ 2020.09</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th class="table-title" scope="col">Python 프레임워크를 활용한 웹 개발</th>
-                    <td>
-                      <div>[코딩온]</div>
-                      <div>
-                        2021년 1월 5일부터 2021년 1월 29일까지 총 80시간동안 웹 개발 과정을 수강하였습니다. 네이버 클라우드 플랫폼에서 2개의 리눅스 서버를 빌려, 리눅스 환영에서 수업을 진행하였습니다.<br/>
-                        리눅스 환경에서 HTML, CSS, JavaScript와 Bootstrap등을 학습하였으며, SSH Key를 이용하여 Visual Studio Code에서 원격 서버를 연동하는 법을 배웠습니다.<br/>
-                        Apache와 Django 등을 학습하였으며, Django를 이용하여 `우리의 서울` 이라는 서울을 소개해주는 간단한 웹 프로젝트를 완성하였으며, 네이버 클라우드 플랫폼으로 배포하였습니다.
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="">2021.01.05~2021.01.28</div>
-                    </td>
-                  <tr>
-                    <th class="table-title" scope="col">All-In-One 알고리즘 2020 하반기</th>
-                    <td>
-                      <div>[세종대학교]</div>
-                      <div>
-                        C++ 기초 문법, 자료구조와 STL등을 학습하였고 그것을 바탕으로 재귀함수, 탐색, 분할과 정복, 동적 계획법, 
-                        그래프 알고리즘, 알고리즘 성능향상 기법 등을 학습하였습니다.
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="">2020.09~2020.11</div>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <th class="table-title" scope="col">웹 기반 AI 융합 개발자 양성 과정</th>
-                    <td>
-                      <div>[SSAC] (Seoul Software Academy Cluster)]</div>
-                      <div>
-                        웹 기분 AI 융합 개발자 양성 프로그램에 중간에 참여할 기회를 얻어 참여를 준비중이며, 현재 node js를 학습하였고, 간단한 채팅 프로그램 등을 구현할 수 있는 수준입니다.
-                      </div>
-                    </td>
-                    <td class="text-center">
-                      <div class="">2021.02.15 ~</div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+      </div>
+    </section>
+    <section class="container backimg">
+      <div class="name-card d-flex justify-content-center align-items-center h-30">
+        <div class="contact-body shadow">
+          <div class="text-center mb-4">
+            <h1>Park Hyun Woo</h1>
+            <small>Developer</small>
+          </div>
+          <div class="d-flex">
+            <img src="./assets/img/myphoto.jpg" />
+            <div class="ps-3">
+              <ul class="list-unstyled">
+                <li>
+                  <span>
+                    <i class="bi bi-person-check-fill"></i>
+                    Position : <strong>Developer</strong>
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <i class="bi bi-envelope"></i>
+                    E-mail :
+                    <strong>gusdn3477@naver.com</strong>
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <i class="bi bi-house-door"></i>
+                    github :
+                    <a href="https://github.com/gusdn3477">
+                      <strong>https://github.com/gusdn3477</strong>
+                    </a>
+                  </span>
+                </li>
+              </ul>
+              <div class="contact-desc">
+                “Be the best version of you!”
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-      </section>
-      
-      <section class="container pt mt" id="qualification">
-        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Qualification</h2>
-        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
-          자격 증명 또한 민감정보이므로, 제출을 원하시면 개인적으로 제출하겠습니다.<br/>
-          국가 공인 자격증이 아닌 경우 제외하였습니다.
+      </div>
+    </section>
+
+    <!-- footer 시작  -->
+    <section>
+      <footer class="container mt-auto mb-5">
+        <div class="social-box text-center">
+          <a class="social-title" href="https://github.com/gusdn3477">GitHub</a>
+          <a class="social-title" href="https://velog.io/@gusdn3477">Blog</a>
+          <a class="social-title" href="mailto:gusdn3477@naver.com">Email</a>
         </div>
-        <div class="row">
-          <div class="col-sm-12 col-lg-4">
-            <div class="card mb-3">
-              <div class="card-body p-4">
-                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">정보처리기사</h5>
-                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
-                  발급기관 : 한국산업인력공단<br/> 취득일 : 2020.11
+        <div>
+          <hr>
+        </div>
+
+        <div class="license-copy text-center">
+          원 템플릿의 저작권은 여기에 있습니다.
+          ⓒ 2021.
+          <a class="fonwei-en-xxl" href="http://kijepark.com/">Kije’s LAB</a> All Rights Reserved
+          <a class="fonwei-en-xxl"
+            href="http://kijepark.com/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%B0%95%EA%B8%B0%EC%A0%9C%EC%9D%98-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.html">Kije’s
+            RESUME</a>
+          .
+          <a class="fonwei-en-xxl" href="#" data-bs-toggle="modal" data-bs-target="#myModal3">Creative Commons
+            License</a>
+        </div>
+        <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="myModal3Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="myModal3Label">THEME 라이센스 정책</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center mt-3" mb-5>
+                <img src="./assets/svg/license.svg" alt="">
+                <p class="modal-desc">
+                  라이센스는 <strong> 크리에이티브 커먼즈 라이센스의 저작자표시-비영리(CC BY-NC)</strong>로 저작자와 출처 등을 표시하면 저작물의 변경, 2차적 저작물의 작성을
+                  포함하여 자유롭게 이용 하실 수 있습니다.<br />
+                  ( 단, 영리적 이용은 허용되지 않습니다 ) <br /><br />
+                  테마에 적용된 모든 사진 이미지는 저작권 문제로 인해 절대 사용 하시면 안됩니다.<br /><br />
+                  문의 : <a href="mailto:kijepark@kijeslab.com">
+                    <span class="fonsiz-md fonwei-en-xl letsp-md color-purple-opac">kijepark@kijeslab.com</span>
+                  </a>
                 </p>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-4">
-            <div class="card mb-3">
-              <div class="card-body p-4">
-                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">한국사능력검정시험 2급</h5>
-                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
-                  발급기관 : 국사편찬위원회<br/> 취득일 : 2017.01
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-4">
-            <div class="card mb-3">
-              <div class="card-body p-4">
-                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">워드프로세서 1급</h5>
-                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
-                  발급기관 : 대한상공회의소<br/> 취득일 : 2006.03
-                </p>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </footer>
+      <!-- footer 끝  -->
+    </section>
+    <!-- Contact 끝  -->
+  </main>
+  <!-- Main 끝 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
 
-      <!-- contact 시작  -->
-      <section class="container pt mt" id="contact">
-        <div class="row">
-          <div class="col-lg-7 mx-auto text-center mb-5">
-            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">
-              Contact
-            </h2>
-            <p class=" fonsiz-sm color-basic fonsiz-xl fonwei-kr-xs lh-md letsp-xs ws-sm my-4">
-              제 소개는 여기까지입니다. 읽어주셔서 감사합니다. <br/>
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="container backimg">
-        <div class="name-card d-flex justify-content-center align-items-center h-30">
-          <div class="contact-body shadow">
-            <div class="text-center mb-4">
-              <h1>Park Hyun Woo</h1>
-              <small>Developer</small>
-            </div>
-            <div class="d-flex">
-              <img src="./assets/img/myphoto.jpg" />
-              <div class="ps-3">
-                <ul class="list-unstyled">
-                  <li>
-                    <span>
-                      <i class="bi bi-person-check-fill"></i>
-                      Position : <strong>Developer</strong>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <i class="bi bi-envelope"></i>
-                      Email :
-                        <strong>gusdn3477@naver.com</strong>
-                      </a>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <i class="bi bi-house-door"></i>
-                      github :
-                      <a href="https://github.com/gusdn3477">
-                        <strong>https://github.com/gusdn3477</strong>
-                      </a>
-                    </span>
-                  </li>
-                </ul>
-                <div class="contact-desc">
-                  “Be the best version of you!”
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-        <!-- footer 시작  -->
-      <section>
-        <footer class="container mt-auto mb-5">
-          <div class="social-box text-center">
-            <a class="social-title" href="https://github.com/gusdn3477">GitHub</a>
-          </div>
-          <div>
-            <hr>
-          </div>
-          
-          <div class="license-copy text-center">
-            원 템플릿의 저작권은 여기에 있습니다.
-            ⓒ 2021.
-            <a class="fonwei-en-xxl" href="http://kijepark.com/">Kije’s LAB</a> All Rights Reserved
-            <a class="fonwei-en-xxl" href="http://kijepark.com/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%B0%95%EA%B8%B0%EC%A0%9C%EC%9D%98-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.html">Kije’s RESUME</a>
-            .
-            <a class="fonwei-en-xxl" href="#" data-bs-toggle="modal" data-bs-target="#myModal3">Creative Commons License</a>
-          </div>
-          <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="myModal3Label" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="myModal3Label">THEME 라이센스 정책</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center mt-3" mb-5>
-                  <img src="./assets/svg/license.svg" alt="">
-                    <p class="modal-desc">
-                      라이센스는 <strong> 크리에이티브 커먼즈 라이센스의 저작자표시-비영리(CC BY-NC)</strong>로 저작자와 출처 등을 표시하면 저작물의 변경, 2차적 저작물의 작성을 포함하여 자유롭게 이용 하실 수 있습니다.<br/>
-                      ( 단, 영리적 이용은 허용되지 않습니다 ) <br/><br/>
-                      테마에 적용된 모든 사진 이미지는 저작권 문제로 인해 절대 사용 하시면 안됩니다.<br/><br/>
-                      문의 : <a href="mailto:kijepark@kijeslab.com">
-                        <span class="fonsiz-md fonwei-en-xl letsp-md color-purple-opac">kijepark@kijeslab.com</span> 
-                      </a>
-                    </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <!-- footer 끝  -->
-      </section>
-      <!-- Contact 끝  -->
-    </main>
-    <!-- Main 끝 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
 </html>
